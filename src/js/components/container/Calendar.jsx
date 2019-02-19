@@ -34,7 +34,7 @@ class Calendar extends React.Component {
   }
 
   renderDays() {
-    const dateFormat = "dddd";
+    const dateFormat = "dd";
     const days = [];
 
     let startDate = dateFns.startOfWeek(this.state.currentMonth);
